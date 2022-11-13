@@ -1,0 +1,237 @@
+.headingmain{
+    font-size:35px;
+    color:brown;
+    font-weight: bolder;
+}
+.headingsub{
+    font-size:20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.titles{
+    font-size: 25px;
+    color:darkblue;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+body{
+    background-color: #ffffff;
+}
+.names{
+    color:darkslateblue;
+    font-size: 17px;
+}
+.menu { 
+    background-color:brown;
+    margin:auto;
+    overflow: hidden;
+}
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 6px 12px;
+    text-decoration:none;
+    font-size: 25px;
+}
+.menu a:hover,.dropdown:hover .dropbtn, .dropdown-content a:hover {
+    background-color:rgb(96, 44, 44);
+}
+.selectedmenu{
+    background-color:rgb(9, 33, 69);
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  color: white;
+  text-align: center;
+  padding: 6px 12px;
+  text-decoration:none;
+  font-size: 25px;
+  background-color: inherit;
+  border: none;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: brown;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+table, td, th{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    color: darkslateblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 10px 0px; 
+    font-size: 20px;
+}
+table{
+    width: 50%;
+}
+input {
+    font-size: 18px;
+    padding: 5px;
+    height: 25px;
+    width: 350px;
+    border: 2px solid brown;
+    outline: none;
+    border-radius: 5px;
+    color: darkblue;
+  /*   border-bottom: none; */
+  }
+
+.outpu{
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+}
+
+.homepageheader {
+    position: fixed;
+    height: 82px;
+    width: 100%;
+    min-width: 980px;
+    border-bottom: 1px solid #8E9D8E;
+    margin:  0px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .loginButton .signinButton {
+	color: #ff0000;
+    background: brown;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 12px 24px;
+	border-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    float: right; 
+    margin: 20px 0px 0px 10px; 
+    font-size: 17px;
+}
+.uiloginbutton:hover {
+  background-color: rgb(96, 44, 44);
+}
+.signupform_content h2 {
+    margin: 0px 0 0 0;
+    padding: 0px 0px 20px 0px;
+    font-size: 40px;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+  }
+  .signupform_text {
+    font-size: 18px;
+    padding: 0;
+    font-weight: bold;
+    color: brown;
+    font-style: normal;
+  }
+  .signup_form {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    padding: 22px 53px 0 53px;
+    color: #ff0000;
+    border-radius: 4px;
+    font-style: italic;
+  }
+  
+  .signupbox {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    padding: 14px;
+    line-height: 25px;
+    border-radius: 4px;
+    border: 1px solid brown;
+    color: brown;
+    margin-left: 0;
+    width: 270px;
+    height: 20px;
+    background-color: transparent;
+  }
+  
+  .signupbutton {
+      background-color: transparent;
+      border: 2px solid brown;
+      border-radius: 6px;
+      margin: 10px 0px;
+  }
+  .uisignupbutton {
+      color: brown;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 0px;
+      padding: 14px 0;
+      width: 300px;
+      text-align: center;
+      text-decoration: none;
+      border-width: 2px;
+      border: 1px solid brown;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)
+  }
+  .uisignupbutton:hover {
+    background-color: rgb(96, 44, 44);
+    color: white;
+  }
+  .signup_error_msg {
+    font-size: 16px;
+    font-weight: bold;
+    color: brown;
+    padding: 0px 10px 15px 10px;
+    text-align: center;
+  }
+  .home-prodlist-img img div {
+    font-size: 20px;
+}
+.home-prodlist-img:hover {
+    background-color:rgb(96, 44, 44) ;
+    border-radius: 8px;
+    color: #fff;
+}
+.home-prodlist-imgi {
+    height: 350px; 
+    width: 300px; 
+    padding: 2px;
+    border: 1px solid #847b7b;
+    border-radius: 8px;
+}
+
