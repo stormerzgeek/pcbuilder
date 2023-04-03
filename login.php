@@ -52,42 +52,11 @@ if (isset($_POST['login'])) {
 <head>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="images/icon.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body style="min-width: 980px;">
-    <div class="homepageheader" style="position: relative;">
-			<div class="signinButton loginButton">
-				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
-					<a style="text-decoration: none; color: #fff;" href="signup.php">SIGN UP</a>
-				</div>
-				<div class="uiloginbutton signinButton loginButton" style="">
-					<a style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>
-				</div>
-			</div>
-        <title>PC Building Helper</title>
-        <link rel="icon" type="image/x-icon" href="images/icon.ico">
-        <header>
-            <div class="headingmain">PC Building Helper</div>
-            <div class="headingsub">The final site for everything in building a custom PC</div>   
-        </header>
-        <nav class="menu">
-            <a href="index.php"><i class="fa fa-fw fa-home"></i> Home</a>
-            <a href="compcheck.php"><i class="fa fa-fw fa-search"></i> Compatibilty Checker</a>
-            <div class="dropdown">
-                <button class="dropbtn"><i class="fa fa-fw fa-cogs"></i> Builds
-                <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="builds.php">Recommended Builds</a>
-                    <a href="ubuilds.php">User Builds</a>
-					<?php if(isset($uname_db)){
-                        echo"<a href='add_build.php'>Add a Build</a>";
-                        echo"<a href='per_builds.php'>My Builds</a>";
-                    } ?>
-                </div>
-            </div>
-            <a href="links.php"><i class="fa fa-fw fa-link"></i> Links</a>
-        </nav>
+    <body>
+    <?php include ( "mainheader.php" ); ?>
 		<div class="holecontainer" style="float: right; margin-right: 36%; padding-top: 110px;">
 			<div class="container">
 				<div>
